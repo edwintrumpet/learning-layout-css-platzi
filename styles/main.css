@@ -37,3 +37,11 @@
     padding: 0 30px;
     text-decoration: underline;
 }
+
+.footer {
+    padding: 30px 16px;
+    background-color: #23282d;
+    color: white;
+    text-align: center;
+    border-top: 40px solid var(--color-primary)
+}
