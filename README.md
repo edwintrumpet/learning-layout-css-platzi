@@ -2,6 +2,8 @@
 
 [Platzi CSS layout course](https://platzi.com/clases/practico-css/) project, myBlog
 
+Website https://edwintrumpet.github.io/learning-layout-css-platzi/
+
 ## Views
 
 Home
