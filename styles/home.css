@@ -1,0 +1,43 @@
+.is-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--color-black) url(../assets/Cover.png) no-repeat fixed center 20%;
+}
+
+.header__about-me--home {
+    color: #fff;
+}
+
+.home {
+    color: #fff;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr minmax(200px, 1000px) 1fr;
+    grid-template-areas: ". . ."
+                         ". welcome ."
+                         ". button ."
+                         ". . .";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: calc(100vh - 252px);
+}
+
+.home__welcome {
+    grid-area: welcome;
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.home__entry-button {
+    grid-area: button;
+    background-color: var(--color-primary);
+    font-weight: 700;
+    padding: 16px;
+}

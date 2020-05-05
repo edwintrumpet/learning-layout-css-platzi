@@ -1,0 +1,39 @@
+:root {
+    --color-primary: #47CFB2;
+    --color-black: #23282d;
+}
+
+.header {
+    width: 100%;
+    height: 252px;
+    display: grid;
+    grid-template-rows: 68px 1fr;
+}
+
+.header__social-bar {
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 60px;
+}
+
+.header__social-icon {
+    color: #fff;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.header__logo {
+    width: 355px;
+}
+
+.header__about-me {
+    padding: 0 30px;
+    text-decoration: underline;
+}
