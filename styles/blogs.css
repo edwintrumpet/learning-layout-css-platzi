@@ -1,5 +1,5 @@
 .news {
-    background-color: #e6e9ed;
+    background-color: var(--color-gray);
     display: grid;
     padding: 30px 60px;
     justify-content: center;
