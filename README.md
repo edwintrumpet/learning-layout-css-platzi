@@ -1,6 +1,24 @@
 # myBlog
 
-Platzi CSS layout course project, myBlog
+[Platzi CSS layout course](https://platzi.com/clases/practico-css/) project, myBlog
+
+## Views
+
+Home
+
+![home](./assets/home-screen.png)
+
+Posts list
+
+![post list](./assets/blog-list-screen.png)
+
+Blogpost
+
+![blogpost](./assets/blogpost-screen.png)
+
+Profile
+
+![profile](./assets/profile-screen.png)
 
 ## Author
 
