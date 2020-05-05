@@ -46,3 +46,27 @@
     text-align: center;
     border-top: 40px solid var(--color-primary)
 }
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 70px 150px;
+    background-color: var(--color-gray);
+    margin-top: 60px;
+}
+
+.contact__item {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact__image {
+    grid-row: 1 / span 2;
+}
+
+.contact__link {
+    text-decoration: underline;
+}
